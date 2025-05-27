@@ -1,0 +1,42 @@
+#Assignment write up
+
+# Structure:
+
+I defined a class and initialised the mobius strip characteristics, the radius
+and the width and the resolution(no.of points in u and v)
+
+Also the surface parameters u,v were intialised, u and v are a set of data points and so for further calculations their mesh grids were made.
+
+3 methods are defined the generate_mobius_plot, calculate_surface_area_of_strip and the calculate_edge_length method.
+
+the first method is used to visulaize mobius strip by making a plot. 
+the second and third are used to calculate surafce area and the edge length respectively
+
+finally i created an instance of the mobiusStrip and gave Radius=5, width=2, resolution=200 as characters of my mobius strip
+
+#surface area and edge length were printed and plot is generated, the screenshot is added to my git repo.
+
+#calculation of surface area:
+
+Approximated by integrating(summing up) over magnitude of the cross productof first order partial derivates of small(differential) parametric surface w.r.t u,v.
+
+The first order partial derivatives represent the tangents to differential strip surface
+
+Because the cross product of tangents give normal vector to surface
+
+first the du and dv are calculated my subtracting 2 adjacent elements in their arrays and then the partial derivatives were calculated using gradient function from numpy and then the normal vectors are calculated by doing cross product of the 2 tangents 
+
+tangent1 = <dX_du, dY_du, dZ_du>
+tangent2 = <dX_dv, dY_dv, dZ_dv>
+
+the magnitude is then calculated and then the integartion is performed by summing the to be integrated product
+
+magnitude * du * dv
+
+##CHALLENGES:
+
+We were taught the calculation of surface areas in multi vriables calculus in our semester 1 so i was able to smoothly proceed in surface area calculation
+
+But i got confused and i didnt understand how is the edge length defined for a surface mathematically and so i had to research online for this.
+
+Thank you.
