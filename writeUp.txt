@@ -35,7 +35,7 @@ magnitude * du * dv
 
 ##CHALLENGES:
 
-We were taught the calculation of surface areas in multi vriables calculus in our semester 1 so i was able to smoothly proceed in surface area calculation
+We were taught the calculation of surface areas in Multivariable calculus course in our semester 1 so i was able to smoothly proceed in surface area calculation
 
 But i got confused and i didnt understand how is the edge length defined for a surface mathematically and so i had to research online for this.
 
